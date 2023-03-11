@@ -24,4 +24,5 @@ steps:
       npm run build
       echo 'ccc'
       npm test
+    failOnStderr: true
   displayName: 'npm install, build, and test'
