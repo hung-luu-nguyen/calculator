@@ -18,7 +18,10 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
+      echo 'aaa'
       npm install
+      echo 'bbb'
       npm run build
+      echo 'ccc'
       npm test
   displayName: 'npm install, build, and test'
